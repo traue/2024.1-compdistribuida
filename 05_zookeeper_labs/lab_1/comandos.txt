@@ -1,0 +1,11 @@
+# Iniciar o ZookeeperServer
+
+- windows: zkServer.cmd start
+- Linux/Mac: ./zkServer.sh start
+
+
+# CLI do Zookeeper
+
+create /election
+
+ 
