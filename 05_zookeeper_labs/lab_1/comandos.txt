@@ -8,4 +8,17 @@
 
 create /election
 
+
+# Compilar a aplicação
+
+mvn clean package
+
+
+# rodar a aplicação
+
+java -jar <nome do arquivo jar com dependêncas>.jar
+
+Rodar em N terminais 
+ 
+
  
