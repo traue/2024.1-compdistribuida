@@ -1,0 +1,9 @@
+sudo apt update
+sudo apt install -y openjdk-17-jdk -y
+sudo apt install -y openjdk-17-jre -y
+sudo apt-get install maven -y
+git clone https://github.com/traue/2024.1-leader.election
+mv 2024.1-leader.election/ leaderelection
+cd leaderelection
+# EDITE O CÓDIGO FONTE COM O IP DO ZK
+mvn clear package
